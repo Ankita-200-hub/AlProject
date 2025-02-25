@@ -31,10 +31,10 @@ page 50117 "Document_page"
 
 
             }
-            // part(PurchaseLine; "Order Line ListPlus")// page name
+            // part(PurchaseLine; "Order Line ListPlus")
             // {
             //   Caption = 'Linking The Tables';
-            //  SubPageLink = "Product ID" = field("Product ID");//Common field
+            //  SubPageLink = "Product ID" = field("Product ID");
             //  }//
 
 

@@ -8,16 +8,27 @@ pageextension 50103 SalesOrderPageExtension extends "Sales Order"
             {
                 Caption = 'Employee Information';
 
+                field(Event_Flow_Name; Rec.Event_Flow_Name)
+                {
+                    ApplicationArea = All;
+
+                }
+                field(Event_Date; Rec.Event_Date)
+                {
+                    ApplicationArea = All;
+
+                }
                 field("Employee Number"; Rec."Employee Number")
                 {
                     ApplicationArea = All;
 
                 }
+
             }
         }
         addlast(General)
         {
-            field("NewTextColumn"; Rec."Employee Number")
+            field("New"; Rec."Employee Number")
 
             {
                 ApplicationArea = All;
